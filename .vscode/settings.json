@@ -1,6 +1,7 @@
 {
-    "cSpell.words": [
-        "jsverse",
-        "Transloco"
-    ]
+  "cSpell.words": ["jsverse", "Transloco"],
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": "always"
+  }
 }

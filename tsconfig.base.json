@@ -15,6 +15,9 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@sports-hub/f1-racing/shared-models": [
+        "libs/f1-racing/shared/models/src/index.ts"
+      ],
       "@sports-hub/f1-racing/seasons/data-access": [
         "libs/f1-racing/seasons/data-access/src/index.ts"
       ],

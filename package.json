@@ -2,7 +2,9 @@
   "name": "@sports-hub/source",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "build:f1-racing": "nx build f1-racing"
+  },
   "private": true,
   "dependencies": {
     "@angular/animations": "~18.2.0",
@@ -14,6 +16,7 @@
     "@angular/platform-browser-dynamic": "~18.2.0",
     "@angular/router": "~18.2.0",
     "@jsverse/transloco": "^7.5.0",
+    "@ngrx/operators": "^18.1.1",
     "@ngrx/signals": "^18.1.1",
     "@ngrx/store": "^18.1.1",
     "ng-zorro-antd": "^18.2.1",
