@@ -14,7 +14,27 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@sports-hub/f1-racing/seasons/data-access": [
+        "libs/f1-racing/seasons/data-access/src/index.ts"
+      ],
+      "@sports-hub/f1-racing/seasons/details": [
+        "libs/f1-racing/seasons/feature/details/src/index.ts"
+      ],
+      "@sports-hub/f1-racing/seasons/list": [
+        "libs/f1-racing/seasons/feature/list/src/index.ts"
+      ],
+      "@sports-hub/f1-racing/shared-config": [
+        "libs/f1-racing/shared/config/src/index.ts"
+      ],
+      "@sports-hub/f1-racing/shared-ui": [
+        "libs/f1-racing/shared/ui/src/index.ts"
+      ],
+      "@sports-hub/f1-racing/shell": ["libs/f1-racing/shell/src/index.ts"],
+      "@sports-hub/shared-config": ["libs/shared/config/src/index.ts"],
+      "@sports-hub/shared-models": ["libs/shared/models/src/index.ts"],
+      "@sports-hub/shared-ui": ["libs/shared/ui/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }

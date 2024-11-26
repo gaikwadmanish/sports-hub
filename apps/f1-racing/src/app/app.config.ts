@@ -1,10 +1,10 @@
-import { ApplicationConfig, provideZoneChangeDetection } from '@angular/core';
-import { provideRouter } from '@angular/router';
-import { appRoutes } from './app.routes';
+import { ApplicationConfig } from '@angular/core';
+import {
+  f1RacingAppProvider,
+  provideAppConfig,
+} from '@sports-hub/f1-racing/shared-config';
+import { environment } from '../environment/environment';
 
 export const appConfig: ApplicationConfig = {
-  providers: [
-    provideZoneChangeDetection({ eventCoalescing: true }),
-    provideRouter(appRoutes),
-  ],
+  providers: [...f1RacingAppProvider, provideAppConfig(environment)],
 };

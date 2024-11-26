@@ -20,9 +20,17 @@
           {
             "glob": "**/*",
             "input": "apps/f1-racing/public"
+          },
+          {
+            "glob": "**/*",
+            "input": "libs/f1-racing/seasons/assets/images",
+            "output": "./assets/seasons/"
           }
         ],
-        "styles": ["apps/f1-racing/src/styles.scss"],
+        "styles": [
+          "apps/f1-racing/src/styles.scss",
+          "node_modules/ng-zorro-antd/ng-zorro-antd.min.css"
+        ],
         "scripts": []
       },
       "configurations": {

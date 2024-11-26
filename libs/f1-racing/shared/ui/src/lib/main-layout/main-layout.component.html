@@ -1,0 +1,19 @@
+<nz-layout class="layout">
+  <nz-sider nzCollapsible [nzCollapsed]="true" nzMode="inline" nzMode="inline" [nzCollapsedWidth]="0">
+    <div class="text-center bg-white justify-center m-4 p-1">
+      <h3 class="m-0" transloco="ui.mainLayout.logoText">F1 Racing App</h3>
+    </div>
+    <ul nz-menu nzTheme="dark" nzMode="inline">
+      
+    </ul>
+  </nz-sider>
+  <nz-layout>
+    <nz-header class="text-center flex justify-center bg-gray">
+      <!-- <img src="assets/seasons/logo-wide.png"  alt="f1"/> -->
+    </nz-header>
+    <nz-content class="h-[calc(100vh-120px)] m-16">
+      <router-outlet></router-outlet>
+    </nz-content>
+    <nz-footer></nz-footer>
+  </nz-layout>
+</nz-layout>
